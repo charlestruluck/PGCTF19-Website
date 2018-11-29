@@ -53,6 +53,14 @@ img.accent {
   margin-top: 2em;
 }
 
+.warning {
+  background-color: red;
+  margin: 0;
+  padding: 0.1em;
+  text-align: center;
+  color:white;
+}
+
 /*body.home {
     background-image: url('../images/copaporterfinal.png');
     background-repeat: no-repeat;
