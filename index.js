@@ -29,6 +29,10 @@ router.get("/register",function(req,res){
 	  res.sendFile(path + "register.html");
 });
 
+router.get("/history",function(req,res){
+	  res.sendFile(path + "history.html");
+});
+
 app.use(express.static('public'))
 app.use("/",router);
 app.use("*",function(req,res){
