@@ -17,8 +17,8 @@ router.get("/practice",function(req,res){
 	  res.sendFile(path + "practice.html");
 });
 
-router.get("/about",function(req,res){
-	  res.sendFile(path + "about.html");
+router.get("/team",function(req,res){
+	  res.sendFile(path + "team.html");
 });
 
 router.get("/contact",function(req,res){
@@ -31,6 +31,10 @@ router.get("/register",function(req,res){
 
 router.get("/history",function(req,res){
 	  res.sendFile(path + "history.html");
+});
+
+router.get("/about",function(req,res){
+	  res.sendFile(path + "about.html");
 });
 
 app.use(express.static('public'))
